@@ -10,7 +10,12 @@
 - **Write buttons visible after Load** (parity with MEC-153): Write / Write grades with zeros / Remove all zeros (`ad38c540` lineage).
 - **Reliable long Writes:** progress await ceiling 180s; on progress timeout warn and continue instead of aborting the remaining batch (`8014e26`).
 - **No bare HTTP 502 / dead UI on Write:** LearnUpon `TimeoutError` during refresh caught and returned as JSON; non-daemon request threads; log flush (`a15ecdf`).
-- **Verified:** MEC-163 Write prove — 51/51 would-post written, then clerk-restored blank (no lasting Eagle changes). Write verify PASS on `a15ecdf`.
+- **Verified (MEC-163):** Write prove — 51/51 would-post written, then clerk-restored blank (no lasting Eagle changes). Write verify PASS on `a15ecdf`.
+
+### MEC-153 (Amatrol)
+
+- Tip `9b29b92` Load on MEC-153-F010: propose-only, **0 mismatches / 10 matches** (`would_post=0`).
+- No Amatrol Write-path changes in 0.5.14→0.5.15; reliability work is LearnUpon.
 
 ### Also
 
