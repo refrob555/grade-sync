@@ -10,6 +10,8 @@ SHA-256 of the 0.5.15 portable zip:
 513b139018fecc1b0bf0ec48a20a14d67530c612aa187bde623a2024fd3579ba
 ```
 
+See [CHANGELOG.md](CHANGELOG.md) for what changed from 0.5.14 → 0.5.15.
+
 ## What it covers
 
 - **MEC-153** — LearnAmatrol quiz scores → Eagle
@@ -34,7 +36,19 @@ Both paths stay in the same portable build. Pick the Eagle class; the app choose
 
 ## Screenshots
 
-Scrubbed home and results screenshots for MEC-153 and MEC-163 will live under [`docs/screenshots/`](docs/screenshots/) when available.
+Scrubbed home and results (no student names/IDs):
+
+### MEC-153 (Amatrol)
+
+![MEC-153 home](docs/screenshots/mec153-home.png)
+
+![MEC-153 results](docs/screenshots/mec153-results.png)
+
+### MEC-163 (LearnUpon)
+
+![MEC-163 home](docs/screenshots/mec163-home.png)
+
+![MEC-163 results](docs/screenshots/mec163-results.png)
 
 ## Source of truth
 
